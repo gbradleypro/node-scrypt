@@ -1,8 +1,8 @@
 {
-  "name": "scrypt",
-  "description": "The scrypt crypto library for NodeJS",
-  "version": "6.0.3",
-  "license": "zlib",
+  "name": "@gbradley/scrypt",
+  "description": "Fork of the scrypt crypto library for NodeJS",
+  "version": "6.0.4",
+  "license": "MIT",
   "keywords": [
     "scrypt",
     "password",
@@ -19,14 +19,14 @@
   "author": {
     "name": "Barry Steyn",
     "email": "barry.steyn@gmail.com",
-    "url": "http://doctrina.org"
+    "url": "https://doctrina.org"
   },
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 10"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/barrysteyn/node-scrypt.git"
+    "url": "https://github.com/gbradleypro/node-scrypt.git"
   },
   "devDependencies": {
     "mocha": "2.2.5",
@@ -35,14 +35,6 @@
   },
   "dependencies": {
     "nan": "^2.14.0"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/barrysteyn/node-scrypt/issues"
   },
   "scripts": {
     "preinstall": "node node-scrypt-preinstall.js",
